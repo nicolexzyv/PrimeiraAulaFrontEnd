@@ -1,0 +1,33 @@
+
+.container {
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 100vh;
+background-color: #f4f4f4;
+}
+.quadrado {
+width: 100px;
+height: 100px;
+background-color: rgb(0, 110, 255);
+}
+.circulo {
+width: 100px;
+height: 100px;
+background-color: red;
+border-radius: 50%;
+}
+.triangulo {
+width: 0;
+height: 0;
+
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-bottom: 100px solid green;
+}
+
+.retangulo{
+width: 200px;
+height: 100px;
+background-color: rgb(7, 7, 7);
+}
